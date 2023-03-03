@@ -9,9 +9,21 @@ class human{
         this.hight = h;
     }
 
-    public void printsum(){ 
+    public void printsax(){ 
                 
-        System.out.println("My sex is : " + sex +"\n"+ "My weight is : " + weight+"\n" +"My hight is : " + hight);
+        System.out.println("My sex is : " + sex );
 
     }
+    public void printhight(){ 
+                
+        System.out.println("My hight is : " + hight );
+
+    }
+    public void printweight(){ 
+                
+        System.out.println("My weight is : " + weight );
+
+    }
+    
 }
+
